@@ -1,0 +1,465 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:4:5-35:19
+MERGED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\2fa243607051c102e9f0aea154f65cb0\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\2fa243607051c102e9f0aea154f65cb0\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:11:5-36:19
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:11:5-36:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\9c1b3a8aa550722d4d1190be9c719ad9\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\9c1b3a8aa550722d4d1190be9c719ad9\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\3641195cced29ec588aed276df7abe85\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\3641195cced29ec588aed276df7abe85\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:mapbox_maps_flutter] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\mapbox_maps_flutter-1.1.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.mapbox.maps:android:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\750231821c1fd47bae9396d67910cadc\transformed\jetified-android-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\2fa243607051c102e9f0aea154f65cb0\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\51f2918890fffa8ac42351fd708db86a\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.mapbox.plugin:maps-viewport:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77fc80655ddf4e639be0e4c56cda5201\transformed\jetified-maps-viewport-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\b5653c67558eebf8a7db8d4acc18ceb2\transformed\jetified-maps-locationcomponent-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-annotation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\934ed39f6c54f4d1ea3e141153233808\transformed\jetified-maps-annotation-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.extension:maps-localization:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77cc5d28ecf4cc013d2d8fc5723e87b4\transformed\jetified-maps-localization-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.extension:maps-style:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c4875ceec8d63b910b5363a1e0d8e0d3\transformed\jetified-maps-style-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-logo:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\0bede8c18dc5742b3900b83ed6415226\transformed\jetified-maps-logo-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-compass:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\2b8e5f4a31f69ea48e741b926dcd41b9\transformed\jetified-maps-compass-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-gestures:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\5b79b1dec546f7ecd4a28c565e02f8c9\transformed\jetified-maps-gestures-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-attribution:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\cd46d1b588636f7d7f4f56da6a9bc51d\transformed\jetified-maps-attribution-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-animation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\218208590f84948bec6594e47cfa7477\transformed\jetified-maps-animation-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-scalebar:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\a81cc75ce72bfb46623f1e9495248a7a\transformed\jetified-maps-scalebar-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-overlay:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c603275d4fecc62594f00c18043ad50c\transformed\jetified-maps-overlay-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\470f28cbf9082ce70554e516b629e2a2\transformed\jetified-maps-lifecycle-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.module:maps-telemetry:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\7b7d33a0528c13ec092ff58865f4d53b\transformed\jetified-maps-telemetry-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.maps:base:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\4ed6394fd830e3a119154a87a2743191\transformed\jetified-base-11.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:2:1-38:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\9c1b3a8aa550722d4d1190be9c719ad9\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\53b23eaaff532c1fc42b4726e519f777\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\24d3cc625ce7aec2dcf26f04d8b740c4\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Fasil\.gradle\caches\transforms-3\ba274a07fa2ba5523c9323e9d11c9d27\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Fasil\.gradle\caches\transforms-3\57f18dcf304cb54a124d2d519d003577\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\8c4d7c2e2bc2b37f8bfeed81575d1a4c\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\99798727dff5d42252857220ead50d3a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\98faa6788f80dc58a078f706c01b5d55\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6eae19b804d0dd8c6aee6159b7c5d5b5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\1f54f6bd2c050182a547df788636d8c8\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6706d77011d4cd5a58e0e9c1cdeb7f86\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\78aaeb767219f519d84089f95069acd0\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\139da46945907ea1648cf3c3aa9ebb3a\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Fasil\.gradle\caches\transforms-3\f81f2e6785876898d38c3c466639be9b\transformed\jetified-mapbox-android-gestures-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\e447b517d7d76b07743dc35e965ed5b0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\a5b6d791cd01a1b1e264077f7df53752\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\bb1240d5048076e2c126ca1d5edafa1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\d9a39e499540740c8f2d908da789e344\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\40e4fc3f1066eb793bdde0d5f97f4354\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\18842351778b80ad9beb544dea538362\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Fasil\.gradle\caches\transforms-3\073bbc496dc937caab7777ff7b382427\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\34d1fb5683b35bd2bd690bda92cd4743\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\b3ae4e819a6bc56739af3d7b37d1d3cb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\3641195cced29ec588aed276df7abe85\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.mapbox.common:logger:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\5a810e71f311c5e888afb1365750d006\transformed\jetified-logger-0.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\27a8cfe70c41a9153c6efaf0aa8c4ba9\transformed\jetified-loader-0.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\14e3250a16df217869f00a2de21e6c5d\transformed\jetified-common-0.11.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\9f577de3df42aa435edace7d950aaa04\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\f6cdd436a78b00570cc6c637240718ae\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Fasil\.gradle\caches\transforms-3\625ba7ee72d3cf5af398417367a35758\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:2:5-79
+	android:name
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:2:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:3:22-78
+queries
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:41:5-46:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:42:9-45:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:43:21-70
+data
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:44:13-50
+	android:mimeType
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml:44:19-48
+uses-sdk
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+MERGED from [:mapbox_maps_flutter] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\mapbox_maps_flutter-1.1.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:mapbox_maps_flutter] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\mapbox_maps_flutter-1.1.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\750231821c1fd47bae9396d67910cadc\transformed\jetified-android-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.maps:android:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\750231821c1fd47bae9396d67910cadc\transformed\jetified-android-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\2fa243607051c102e9f0aea154f65cb0\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\2fa243607051c102e9f0aea154f65cb0\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\51f2918890fffa8ac42351fd708db86a\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\51f2918890fffa8ac42351fd708db86a\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.plugin:maps-viewport:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77fc80655ddf4e639be0e4c56cda5201\transformed\jetified-maps-viewport-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-viewport:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77fc80655ddf4e639be0e4c56cda5201\transformed\jetified-maps-viewport-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-locationcomponent:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\b5653c67558eebf8a7db8d4acc18ceb2\transformed\jetified-maps-locationcomponent-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-locationcomponent:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\b5653c67558eebf8a7db8d4acc18ceb2\transformed\jetified-maps-locationcomponent-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-annotation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\934ed39f6c54f4d1ea3e141153233808\transformed\jetified-maps-annotation-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-annotation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\934ed39f6c54f4d1ea3e141153233808\transformed\jetified-maps-annotation-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.extension:maps-localization:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77cc5d28ecf4cc013d2d8fc5723e87b4\transformed\jetified-maps-localization-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.extension:maps-localization:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\77cc5d28ecf4cc013d2d8fc5723e87b4\transformed\jetified-maps-localization-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.extension:maps-style:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c4875ceec8d63b910b5363a1e0d8e0d3\transformed\jetified-maps-style-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.extension:maps-style:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c4875ceec8d63b910b5363a1e0d8e0d3\transformed\jetified-maps-style-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-logo:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\0bede8c18dc5742b3900b83ed6415226\transformed\jetified-maps-logo-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-logo:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\0bede8c18dc5742b3900b83ed6415226\transformed\jetified-maps-logo-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-compass:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\2b8e5f4a31f69ea48e741b926dcd41b9\transformed\jetified-maps-compass-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-compass:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\2b8e5f4a31f69ea48e741b926dcd41b9\transformed\jetified-maps-compass-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-gestures:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\5b79b1dec546f7ecd4a28c565e02f8c9\transformed\jetified-maps-gestures-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-gestures:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\5b79b1dec546f7ecd4a28c565e02f8c9\transformed\jetified-maps-gestures-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-attribution:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\cd46d1b588636f7d7f4f56da6a9bc51d\transformed\jetified-maps-attribution-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-attribution:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\cd46d1b588636f7d7f4f56da6a9bc51d\transformed\jetified-maps-attribution-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-animation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\218208590f84948bec6594e47cfa7477\transformed\jetified-maps-animation-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-animation:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\218208590f84948bec6594e47cfa7477\transformed\jetified-maps-animation-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-scalebar:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\a81cc75ce72bfb46623f1e9495248a7a\transformed\jetified-maps-scalebar-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-scalebar:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\a81cc75ce72bfb46623f1e9495248a7a\transformed\jetified-maps-scalebar-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-overlay:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c603275d4fecc62594f00c18043ad50c\transformed\jetified-maps-overlay-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-overlay:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\c603275d4fecc62594f00c18043ad50c\transformed\jetified-maps-overlay-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-lifecycle:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\470f28cbf9082ce70554e516b629e2a2\transformed\jetified-maps-lifecycle-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.plugin:maps-lifecycle:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\470f28cbf9082ce70554e516b629e2a2\transformed\jetified-maps-lifecycle-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.module:maps-telemetry:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\7b7d33a0528c13ec092ff58865f4d53b\transformed\jetified-maps-telemetry-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.module:maps-telemetry:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\7b7d33a0528c13ec092ff58865f4d53b\transformed\jetified-maps-telemetry-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.maps:base:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\4ed6394fd830e3a119154a87a2743191\transformed\jetified-base-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.maps:base:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\4ed6394fd830e3a119154a87a2743191\transformed\jetified-base-11.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\9c1b3a8aa550722d4d1190be9c719ad9\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\9c1b3a8aa550722d4d1190be9c719ad9\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\53b23eaaff532c1fc42b4726e519f777\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\53b23eaaff532c1fc42b4726e519f777\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\24d3cc625ce7aec2dcf26f04d8b740c4\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Fasil\.gradle\caches\transforms-3\24d3cc625ce7aec2dcf26f04d8b740c4\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Fasil\.gradle\caches\transforms-3\ba274a07fa2ba5523c9323e9d11c9d27\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Fasil\.gradle\caches\transforms-3\ba274a07fa2ba5523c9323e9d11c9d27\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Fasil\.gradle\caches\transforms-3\57f18dcf304cb54a124d2d519d003577\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Fasil\.gradle\caches\transforms-3\57f18dcf304cb54a124d2d519d003577\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\8c4d7c2e2bc2b37f8bfeed81575d1a4c\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\8c4d7c2e2bc2b37f8bfeed81575d1a4c\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\99798727dff5d42252857220ead50d3a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\99798727dff5d42252857220ead50d3a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\98faa6788f80dc58a078f706c01b5d55\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\98faa6788f80dc58a078f706c01b5d55\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6eae19b804d0dd8c6aee6159b7c5d5b5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6eae19b804d0dd8c6aee6159b7c5d5b5\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\1f54f6bd2c050182a547df788636d8c8\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\1f54f6bd2c050182a547df788636d8c8\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6706d77011d4cd5a58e0e9c1cdeb7f86\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\6706d77011d4cd5a58e0e9c1cdeb7f86\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\78aaeb767219f519d84089f95069acd0\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\78aaeb767219f519d84089f95069acd0\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\139da46945907ea1648cf3c3aa9ebb3a\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\139da46945907ea1648cf3c3aa9ebb3a\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Fasil\.gradle\caches\transforms-3\f81f2e6785876898d38c3c466639be9b\transformed\jetified-mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Fasil\.gradle\caches\transforms-3\f81f2e6785876898d38c3c466639be9b\transformed\jetified-mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\e447b517d7d76b07743dc35e965ed5b0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\e447b517d7d76b07743dc35e965ed5b0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\a5b6d791cd01a1b1e264077f7df53752\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\a5b6d791cd01a1b1e264077f7df53752\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\bb1240d5048076e2c126ca1d5edafa1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\bb1240d5048076e2c126ca1d5edafa1b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\d9a39e499540740c8f2d908da789e344\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Fasil\.gradle\caches\transforms-3\d9a39e499540740c8f2d908da789e344\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\40e4fc3f1066eb793bdde0d5f97f4354\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\40e4fc3f1066eb793bdde0d5f97f4354\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\18842351778b80ad9beb544dea538362\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\18842351778b80ad9beb544dea538362\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Fasil\.gradle\caches\transforms-3\073bbc496dc937caab7777ff7b382427\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Fasil\.gradle\caches\transforms-3\073bbc496dc937caab7777ff7b382427\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\34d1fb5683b35bd2bd690bda92cd4743\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\34d1fb5683b35bd2bd690bda92cd4743\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\b3ae4e819a6bc56739af3d7b37d1d3cb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\b3ae4e819a6bc56739af3d7b37d1d3cb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\3641195cced29ec588aed276df7abe85\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\3641195cced29ec588aed276df7abe85\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.common:logger:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\5a810e71f311c5e888afb1365750d006\transformed\jetified-logger-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\5a810e71f311c5e888afb1365750d006\transformed\jetified-logger-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\27a8cfe70c41a9153c6efaf0aa8c4ba9\transformed\jetified-loader-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\27a8cfe70c41a9153c6efaf0aa8c4ba9\transformed\jetified-loader-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\14e3250a16df217869f00a2de21e6c5d\transformed\jetified-common-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.11.0] C:\Users\Fasil\.gradle\caches\transforms-3\14e3250a16df217869f00a2de21e6c5d\transformed\jetified-common-0.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\9f577de3df42aa435edace7d950aaa04\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\9f577de3df42aa435edace7d950aaa04\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\f6cdd436a78b00570cc6c637240718ae\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Fasil\.gradle\caches\transforms-3\f6cdd436a78b00570cc6c637240718ae\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Fasil\.gradle\caches\transforms-3\625ba7ee72d3cf5af398417367a35758\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Fasil\.gradle\caches\transforms-3\625ba7ee72d3cf5af398417367a35758\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:8:5-67
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\Fasil\Desktop\Works\ivorek_machine_test\android\app\src\debug\AndroidManifest.xml:6:22-64
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] C:\Users\Fasil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.0\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Fasil\.gradle\caches\transforms-3\5a3ba33da1e4eacc760d15398561baf7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-feature#0x00030000
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:10:5-12:35
+	android:glEsVersion
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:11:9-41
+	android:required
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:12:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:14:9-45
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:9:5-79
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:19:22-73
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:12:9-22:20
+MERGED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:12:9-22:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Fasil\.gradle\caches\transforms-3\2e284a852d0a7907bf959df743b2792c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:26:13-31
+	android:authorities
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:24:13-68
+	android:exported
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:23:13-67
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:11.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d71f84b221a78c538adccf552471481a\transformed\jetified-android-core-11.3.0\AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:19:13-21:52
+	android:value
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:21:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:20:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:24:9-31:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:25:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:28:13-30:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:29:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:29:25-122
+service#com.mapbox.common.LifecycleService
+ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:24.3.1] C:\Users\Fasil\.gradle\caches\transforms-3\6e507d3c38cca549cd7ee49a59aeb9e4\transformed\jetified-common-24.3.1\AndroidManifest.xml:34:13-62
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\6c9343318eac03a9b9849e0c4a56203d\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\8bc7c5a37fbf541f970f3fc939898587\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Fasil\.gradle\caches\transforms-3\b38e70730370bc8c697550cd1280563a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Fasil\.gradle\caches\transforms-3\552e4852626648d38dc9c1b7fcf0bca1\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.ivorek_machine_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.ivorek_machine_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\Fasil\.gradle\caches\transforms-3\bc4596791013371dd01d94950a6f9136\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Fasil\.gradle\caches\transforms-3\d00f54b17b12fca10e787a05800bd56b\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
