@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ivorek_machine_test/app/presentation/home/full_map_widget.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_q1_q2_q3/basic_map_with_marker.dart';
 import 'package:ivorek_machine_test/app/presentation/home/highlighted_area_map.dart';
 import 'package:ivorek_machine_test/app/presentation/home/interactive_higlight_area_map.dart';
 import 'package:ivorek_machine_test/app/presentation/home/map_with_interactive_gif_marker.dart';
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           TextButton(
               onPressed: () => Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => const FullMapWidget(),
+                    builder: (context) => const BasicMapWithMarker(),
                   )),
               child: const Text(
                   "Question 1 - 1,2,3: Add a Mapbox Map and Add a marker to the map created.")),

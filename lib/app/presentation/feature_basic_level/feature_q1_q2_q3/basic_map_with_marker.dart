@@ -3,14 +3,14 @@ import 'package:geolocator/geolocator.dart' as g_locator;
 import 'package:ivorek_machine_test/app/utils/utils.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 
-class FullMapWidget extends StatefulWidget {
-  const FullMapWidget({super.key});
+class BasicMapWithMarker extends StatefulWidget {
+  const BasicMapWithMarker({super.key});
 
   @override
-  State<FullMapWidget> createState() => _FullMapWidgetState();
+  State<BasicMapWithMarker> createState() => _BasicMapWithMarkerState();
 }
 
-class _FullMapWidgetState extends State<FullMapWidget> {
+class _BasicMapWithMarkerState extends State<BasicMapWithMarker> {
   g_locator.Position? currentLatLng;
   CircleAnnotation? circleAnnotation;
   CircleAnnotationManager? circleAnnotationManager;
