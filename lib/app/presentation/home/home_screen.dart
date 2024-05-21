@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:ivorek_machine_test/app/presentation/feature_q1_q2_q3/basic_map_with_marker.dart';
-import 'package:ivorek_machine_test/app/presentation/home/highlighted_area_map.dart';
-import 'package:ivorek_machine_test/app/presentation/home/interactive_higlight_area_map.dart';
-import 'package:ivorek_machine_test/app/presentation/home/map_with_interactive_gif_marker.dart';
-import 'package:ivorek_machine_test/app/presentation/home/map_with_interactive_line_marker.dart';
-import 'package:ivorek_machine_test/app/presentation/home/map_with_interactive_markers.dart';
-import 'package:ivorek_machine_test/app/presentation/home/map_with_polylines.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_basic_level/feature_q1_q2_q3/basic_map_with_marker.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_basic_level/feature_q4/highlighted_area_map.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_advance_level/feature_q2/interactive_higlight_area_map.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_advance_level/feature_q3/map_with_interactive_gif_marker.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_advance_level/feature_q2/map_with_interactive_line_marker.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_advance_level/feature_q1/map_with_interactive_markers.dart';
+import 'package:ivorek_machine_test/app/presentation/feature_basic_level/feature_q4/map_with_polylines.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

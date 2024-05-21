@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:geolocator/geolocator.dart' as gl;
-import 'package:ivorek_machine_test/app/utils/resources.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
-
+import 'package:ivorek_machine_test/app/utils/resources.dart';
 import 'package:ivorek_machine_test/app/utils/utils.dart';
+import 'package:image/image.dart' as img;
 
 class MapWithInteractiveGifMarker extends StatefulWidget {
   const MapWithInteractiveGifMarker({super.key});
@@ -26,7 +26,6 @@ class _MapWithInteractiveGifMarkerState
     currentLatLng = await Utils.determinePosition();
     setState(() {});
     this.mapboxMap = mapboxMap;
-    mapboxMap.style;
 
     if (currentLatLng != null) {
       mapboxMap.flyTo(
@@ -45,31 +44,71 @@ class _MapWithInteractiveGifMarkerState
     }
   }
 
-  void createOneAnnotation(ScreenCoordinate screenCoordinate, Uint8List list) {
-    pointAnnotationManager
-        ?.create(PointAnnotationOptions(
-            geometry: Point(
-              coordinates: Position(
-                screenCoordinate.y,
-                screenCoordinate.x,
-              ),
-            ).toJson(),
-            textOffset: [0.0, -2.0],
-            textColor: Colors.red.value,
-            iconSize: .1,
-            iconOffset: [0.0, -5.0],
-            symbolSortKey: 10,
-            image: list))
-        .then((value) => pointAnnotation = value);
+  Future<void> _addImageSource(ScreenCoordinate screenCoordinate) async {
+    const sourceId = "image_source_id";
+    const layerId = "image_layer_id";
+
+    // Check if the source already exists
+    try {
+      var existingSource = await mapboxMap?.style.getSource(sourceId);
+      if (existingSource == null) {
+        await mapboxMap?.style
+            .addSource(ImageSource(id: sourceId, coordinates: [
+          [screenCoordinate.x, screenCoordinate.y],
+          [screenCoordinate.x, screenCoordinate.y],
+          [screenCoordinate.x, screenCoordinate.y],
+          [screenCoordinate.x, screenCoordinate.y],
+        ]));
+      }
+    } catch (e) {
+      // If the source does not exist or any other error occurs, we add the source
+      await mapboxMap?.style.addSource(ImageSource(id: sourceId, coordinates: [
+        [screenCoordinate.x, screenCoordinate.y],
+        [screenCoordinate.x, screenCoordinate.y],
+        [screenCoordinate.x, screenCoordinate.y],
+        [screenCoordinate.x, screenCoordinate.y],
+      ]));
+    }
+
+    // Check if the layer already exists
+    try {
+      var existingLayer = await mapboxMap?.style.getLayer(layerId);
+      if (existingLayer == null) {
+        await mapboxMap?.style.addLayer(RasterLayer(
+          id: layerId,
+          sourceId: sourceId,
+        ));
+      }
+    } catch (e) {
+      // If the layer does not exist or any other error occurs, we add the layer
+      await mapboxMap?.style.addLayer(RasterLayer(
+        id: layerId,
+        sourceId: sourceId,
+      ));
+    }
   }
 
-  _onTapListner(ScreenCoordinate screenCoordinate) async {
-    final ByteData bytes = await rootBundle.load(AppResources.animatedIcon);
-    final Uint8List list = bytes.buffer.asUint8List();
-    mapboxMap?.annotations.createPointAnnotationManager().then((value) async {
-      pointAnnotationManager = value;
-      createOneAnnotation(screenCoordinate, list);
-    });
+  _onTapListener(ScreenCoordinate screenCoordinate) async {
+    final bytes = await rootBundle.load(AppResources.animatedIcon);
+    final list = bytes.buffer.asUint8List();
+
+    // Decode the image to get its actual dimensions
+    final image = img.decodeImage(list);
+    if (image != null) {
+      final width = image.width;
+      final height = image.height;
+
+      // Add the image to the style with the correct dimensions
+      await mapboxMap?.style.addStyleImage(
+        "Image_id",
+        1.0,
+        MbxImage(width: width, height: height, data: list),
+        false,
+        [],
+        [],
+        ImageContent(left: 10, top: 10, right: 10, bottom: 10),
+      );
+    }
   }
 
   @override
@@ -77,13 +116,14 @@ class _MapWithInteractiveGifMarkerState
     final MapWidget mapWidget = MapWidget(
       key: const ValueKey("mapWidget"),
       onMapCreated: _onMapCreated,
-      onTapListener: _onTapListner,
+      onTapListener: _onTapListener,
       styleUri: MapboxStyles.LIGHT,
     );
     return Scaffold(
-        body: Padding(
-      padding: EdgeInsets.only(top: MediaQuery.paddingOf(context).top),
-      child: mapWidget,
-    ));
+      body: Padding(
+        padding: EdgeInsets.only(top: MediaQuery.paddingOf(context).top),
+        child: mapWidget,
+      ),
+    );
   }
 }
